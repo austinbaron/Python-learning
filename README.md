@@ -24,3 +24,7 @@ Data types are the classification or categorization of data items. It represents
 6. Binary Types( memoryview, bytearray, bytes)
 
 ![data-types](./images/Python-data-structure.jpg)
+
+#### [Control Flow](./control-flow/README.md)
+
+Python program control flow is regulated by various types of conditional statements, loops, and function calls. By default, the instructions in a computer program are executed in a sequential manner, from top to bottom, or from start to end. 
