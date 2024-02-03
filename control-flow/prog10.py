@@ -1,0 +1,15 @@
+'''
+Continue Statement
+
+use continue statements inside a for loop to skip the execution of the for loop body for a specific condition.
+'''
+nums = [1, 2, -3, 4, -5, 6]
+
+sum_positives = 0
+
+for num in nums:
+    if num < 0:
+        continue
+    sum_positives += num
+
+print(f'Sum of Positive Numbers: {sum_positives}')

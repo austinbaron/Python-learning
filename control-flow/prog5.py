@@ -1,25 +1,22 @@
 '''
-count the number of even and odds
+Basic for loop
+'''
+
+language = ["python", "go", "java"]
+
+for x in language:
+    print(x)
+
+'''
+Let me explain the syntax of the Python for loop better.
+
+The first word of the statement starts with the keyword “for” which signifies the beginning of the for loop.
+Then we have the iterator variable which iterates over the sequence and can be used within the loop to perform various functions
+The next is the “in” keyword in Python which tells the iterator variable to loop for elements within the sequence
+And finally, we have the sequence variable which can either be a list, a tuple, or any other kind of iterator.
+The statements part of the loop is where you can play around with the iterator variable and perform various function
 
 '''
 
-# Create a tuple named 'numbers' containing integer values from 1 to 9
-numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+#######################
 
-# Initialize counters for counting odd and even numbers
-count_odd = 0
-count_even = 0
-
-# Iterate through each element 'x' in the tuple 'numbers'
-for x in numbers:
-    # Check if the current number 'x' is even by evaluating 'not x % 2'
-    if not x % 2:  # If 'x' modulo 2 equals 0, it's even
-        # Increment the count of even numbers
-        count_even += 1
-    else:
-        # If 'x' modulo 2 doesn't equal 0, it's odd; increment the count of odd numbers
-        count_odd += 1
-
-# Print the total count of even and odd numbers
-print("Number of even numbers:", count_even)
-print("Number of odd numbers:", count_odd) 
