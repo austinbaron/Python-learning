@@ -38,3 +38,13 @@ There are three types of functions in Python:
 * Built-in functions, such as help() to ask for help, min() to get the minimum value, print() to print an object to the terminal,… You can find an overview with more of these functions here.
 * User-Defined Functions (UDFs), which are functions that users create to help them out; And
 * Anonymous functions, which are also called lambda functions because they are not declared with the standard def keyword.
+
+#### [File Handling](./file-handling/README.md)
+
+File handling in Python is an important part of any web application. Python offers several functions for opening, reading, creating, writing, closing, or deleting files in python
+
+Basics of file handling in Python:
+
+* Open a file 
+* Read/write/create/delete
+* Close a file 
