@@ -47,4 +47,9 @@ Basics of file handling in Python:
 
 * Open a file 
 * Read/write/create/delete
-* Close a file 
+* Close a file
+
+#### [Exception Handling](./error-handling/README.md)
+
+Exception Handling is a crcial concept in python which allows us to gracefully handle and manage the errors and exceptional situations which may occur during the program execution.
+
