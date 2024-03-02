@@ -53,3 +53,6 @@ Basics of file handling in Python:
 
 Exception Handling is a crcial concept in python which allows us to gracefully handle and manage the errors and exceptional situations which may occur during the program execution.
 
+#### [Modules](./module/README.md)
+
+The concept of module in Python further enhances the modularity. You can define more than one related functions together and load required functions. A module is a file containing definition of functions, classes, variables, constants or any other Python object. Contents of this file can be made available to any other program. Python has the import keyword for this purpose.
