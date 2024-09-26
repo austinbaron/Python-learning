@@ -11,7 +11,7 @@ c=100+3j
 print("The type of variable having value", c, " is ", type(c))
 
 ###-------------------
-
+#Austin loves the code
 a = "string in a double quote"
 b= 'string in a single quote'
 print(a)
